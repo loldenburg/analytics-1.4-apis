@@ -12,6 +12,7 @@ Every data insertion must also include one of `<visitorID>`, `<marketingCloudVis
 
 |XML Tag \(POST\)|Query String Parameter \(GET\)|JavaScript Variable|HTTP Header Var|Description|
 |----------------|------------------------------|-------------------|---------------|-----------|
+| `<a4t>` |`n/a` | N/A | N/A | Analytics4Target payload (retrieve via Target Response Tokens by setting `targetGlobalSettings.analyticsLogging: "client_side"`. The `<a4t>` tag needs to receive the value of the `analyticsDetails[n].payload.tnta` property) |
 | `<browserHeight>` |`bh` | N/A | N/A | Browser height in pixels \(For example, 768\). |
 | `<browserWidth>` |`bw` | N/A | N/A | Browser width in pixels \(For example, 1024\). |
 | `<campaign>` |`v0` | campaign | N/A | The campaign tracking code associated with the page. |
